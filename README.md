@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Preciousglows/product-preview-card](https://github.com/Preciousglows/product-preview-card)
+- Live Site URL: [https://preciousglows.github.io/product-preview-card/](https://preciousglows.github.io/product-preview-card/)
 
 ## My process
 
