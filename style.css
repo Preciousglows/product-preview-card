@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: hsl(30, 38%, 92%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  margin: auto;
+  width: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagediv {
+    height: 280px;
+    background-image: url(/images/image-product-desktop.jpg);
+    background-size: cover;
+    width: 100%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.contentdiv {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  padding: 1.6em;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentdiv h1 {
+  font-family: "Fraunces", serif;
+}
+
+.contentdiv button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  border: hsl(158, 36%, 37%);
+  border-radius: 1em;
+  padding: 15px 15px;
+}
+
+.contentdiv button:hover{
+  cursor: pointer;
+  background-color: hsl(158, 46%, 55%);
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+
+@media screen and (max-width:375px){
+  .container{
+    display: block;
+  }
+}
