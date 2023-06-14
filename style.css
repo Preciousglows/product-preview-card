@@ -30,7 +30,7 @@ main {
 }
 .imagediv {
     height: 280px;
-    background-image: url(/images/image-product-desktop.jpg);
+    background-image: url(images/image-product-desktop.jpg);
     background-size: cover;
     width: 100%;
     border-top-left-radius: 2%;
